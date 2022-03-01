@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: #888888;
+    color: white;
+}
+
+table {
+    padding: 10px;
+    width: 40%;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #c0c0c0;
+}
+
+tr:nth-child(3), tr:nth-child(5), tr:nth-child(7) {
+    background-color: #efefef;
+}
+
+tr:nth-last-child(1) td:nth-last-child(2) {
+    background-color: #ffbbbb;
+}
+
+tr:nth-last-child(4) td:nth-last-child(2) {
+    background-color: #ffbbbb;
+}
